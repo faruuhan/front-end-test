@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="http://fonts.cdnfonts.com/css/intro" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Redahkan Batuk</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header class="bg-[#fff8d9] flex px-4 lg:py-10 lg:absolute lg:bg-transparent lg:top-0 lg:w-full">
+      <div class="container mx-auto">
+        <div class="flex flex-col lg:flex-row lg:justify-end">
+          <div class="flex justify-end py-10">
+            <div></div>
+            <div class="block lg:hidden">
+              <button onClick="btnMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div id="menuNavbar" class="py-3 lg:py-0 hidden lg:block">
+            <div class="flex flex-col lg:flex-row gap-8">
+              <a href="#" class="text-[#8a4a0c] hover:text-[#ad6b25] font-semibold flex gap-2"
+                ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                </svg>
+                LIHAT PRODUK</a
+              >
+              <a href="#" class="text-[#8a4a0c] hover:text-[#ad6b25] font-semibold flex gap-2"
+                ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                </svg>
+                TENTANG OBH COMBI</a
+              >
+              <a href="#" class="text-[#8a4a0c] hover:text-[#ad6b25] font-semibold flex gap-2"
+                ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+                KONTAK</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section Start-->
+    <div class="bg-cover bg-center bg-no-repeat h-screen flex flex-col" style="background-image: url('assets/header.jpg')">
+      <div class="container md:mx-auto my-auto lg:my-0 lg:mt-auto">
+        <div class="flex flex-row justify-end">
+          <div class="w-full p-4 md:w-1/2 animate__animated animate__fadeInRight">
+            <p class="font-[Lora] text-[#ad6b25]">Gak semua orang tahu</p>
+            <h2 class="font-['Intro Demo'] font-bold text-6xl uppercase text-[#8a4a0c]">Batuk itu bukan penyakit</h2>
+            <hr class="w-24 border border-[#8a4a0c] my-3" />
+            <p class="font-[Open Sans] font-medium text-[#ad6b25]">Batuk adalah respon alami tubuh untuk melindungi tubuh terhadap beda asing (kuman, bakteri, virus) yang masuk ke dalam tubuh</p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c5812f" fill-opacity="1" d="M0,320L1440,224L1440,320L0,320Z"></path></svg>
+    </div>
+    <!-- Section End -->
+
+    <!-- Section Start-->
+    <div class="bg-[#c5812f]">
+      <div class="container py-10 mx-auto animate__animated animate__fadeInLeft">
+        <div class="flex flex-col md:flex-row px-4 md:px-0 gap-8 md:gap-4 sm:justify-center">
+          <div class="w-full md:px-4 lg:w-3/12 md:flex md:flex-col">
+            <hr class="w-24 pb-3 md:self-end" />
+            <p class="font-[lora] md:text-right text-white">terdapat</p>
+            <h2 class="font-['Intro Demo'] md:text-right font-bold text-6xl uppercase text-white">
+              2 Jenis <br />
+              Batuk
+            </h2>
+            <p class="font-[Open Sans] md:text-right text-white pb-3">
+              yaitu batuk berdahak <br />
+              dan batuk tidak berdahak
+            </p>
+            <hr class="w-24 md:self-end" />
+          </div>
+          <div class="w-full md:px-4 lg:w-3/12">
+            <div class="bg-white w-fit px-2 mb-3">
+              <p class="font-[Open Sans] font-bold text-[#c17b2d] uppercase">Batuk tidak berdahak</p>
+            </div>
+            <p class="font-[Open Sans] text-white">disebabkan oleh terjadinya kejang pada saluran pernapasan yang menjadi respon terhadap iritasi di tenggorokan.</p>
+          </div>
+          <div class="w-full md:px-4 lg:w-3/12">
+            <div class="bg-white w-fit px-8 mb-3">
+              <p class="font-[Open Sans] font-bold text-[#c17b2d] uppercase">Batuk berdahak</p>
+            </div>
+            <p class="font-[Open Sans] text-white">
+              disebabkan karena membran yang melapisi saluran pernapasan menghasilkan dahak yang berlebih sehingga harus dikeluarkan oleh tubuh. Terkadang dahak sulit dikeluarkan oleh tubuh sehingga dibutuhkan obat batuk yang bersifat
+              ekspektoran.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section End -->
+
+    <div class="bg-[#fff8d9]">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c5812f" fill-opacity="1" d="M0,128L1440,0L1440,0L0,0Z"></path></svg>
+      <div class="container px-4 md:mx-auto py-10">
+        <div class="w-full mb-10">
+          <div class="flex justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="animate-bounce h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+            </svg>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row md:justify-center gap-8 md:gap-4">
+          <div class="w-full md:w-1/2 lg:w-4/12 md:order-2 animate__animated animate__fadeInRight">
+            <div class="flex justify-center">
+              <img src="assets/img_leaf.png" alt="" class="w-[200px] lg:w-[300px] rotate-[20deg]" />
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-4/12 md:order-1 lg:self-center animate__animated animate__fadeInLeft">
+            <div class="flex flex-col gap-4">
+              <h2 class="font-['Intro Demo'] font-bold text-6xl text-[#039b39] md:text-right uppercase">Succus Liquritiae</h2>
+              <hr class="w-24 md:self-end border border-[#039b39]" />
+              <p class="font-[Open Sans] text-[#8a4a0c] md:text-right">merupakan salah satu bahan alami yang telah dibudidayakan sejak abad ke-13 dan dipercaya serta digunakan sebagai bahan dasar obat-obatan alami maupun modern.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const btnMenu = () => {
+      const menuNavbar = document.querySelector("#menuNavbar");
+      menuNavbar.classList.toggle("hidden");
+    };
+  </script>
+</html>
